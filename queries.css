@@ -1,0 +1,303 @@
+@media only screen and (min-width: 370px) and
+    (max-width: 737px) {
+
+    body {
+        font-size: 1.3em;
+        display: block;
+        line-height: 1;
+            }
+    p, .gifts p{ 
+            font-size: 1.3em;
+        }
+    section { 
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+     
+    
+    h1 {
+        font-size: 5em;
+        margin-top: .5em;
+    }
+        
+    .couplename h1 {
+            padding-top: 0px;
+            text-align: center;
+        }
+    
+        
+   
+     .gifts0 h2,
+        .gifts h2{
+        font-size: 4em;
+        padding-top: .5em;
+        font-family: "Poiret One"
+    }
+        
+        .places1 h2, .places2 h2 {
+            font-size: 4em;
+            padding-top: .8em;
+        }
+        .gifts h2{
+            margin-top: 2em;
+        font-size: 2.5em;
+            }
+/*
+       .gifts h2, 
+        .places h2{
+        padding: 0;
+         font-family: "Poiret One"
+        }
+*/
+    .gifts0 h2 {
+        font-size: 3em;
+        padding-top: 11%;
+        }
+    
+    h3 {
+        font-size: 1.3em;
+
+    }
+    
+    .date_description p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        
+    .date,
+    .places1, .places2,
+    .gifts {
+        background-size: cover;
+    }
+    
+    header {
+        background-image: url(img/imagevertical01.png);
+        background-size: 100% 40%;
+        background-size: contain;
+        height: 100vh;
+    }
+    
+    .church_description p,
+    .party_description p {
+        font-size: 1em;
+        text-align: center;
+        }
+        
+    .party_description p {
+        margin: 0 1%;
+        }
+        
+    .church_btn, .hotel_room {
+            font-size: 1em;
+        }
+         .container_gifts0 p {
+            display: inline-block;
+            margin: 0 auto;
+             align-items: center;
+             width: 100%;
+/*
+            align-content: center;
+             text-align: center;
+*/
+        }
+        
+    .container_gifts0 p, .gifts_description0,
+.logos0 img
+        {
+            font-size: 1em;
+            display: block;
+            margin-left: 2%;
+            text-align: center;
+            align-items: center;
+        }
+        
+       
+        .logos0 img {
+            margin-left: 8%;
+        }
+        .boxes img {
+            width: 40px;
+            height: 50px;
+        }
+    .header {
+        background-size: contain;
+    }
+        
+.clock-section p,
+.clock-section,
+#clock-divi,
+#clock-divi > div, 
+#clock-divi div > span, 
+.text-clock {
+    display: none;
+        }     
+        
+.boxes {
+        display: none;
+    }
+
+.gifts0 {
+  padding: 0rem 0rem;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url(img/boxes.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+        
+.gifts0 h2 {
+    color: #fff;
+        } 
+        
+.btn_church,
+.btn_confirm,
+.btn_party,
+.btn_attendance {
+    font-family:  "Poiret One";
+    background: #fff;
+    color: #222;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 3%;
+    border: .5px solid #000;
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
+    .btn_party,
+    .btn_attendance,
+    .btn_confirm {
+    margin-top: 10px;    }
+        
+        
+/*
+        
+.main-nav {
+    float: right;
+    margin-top: 5px;
+    margin-left: 40%px;
+    color: black;
+  }
+     
+.main-nav li a:link,
+.main-nav li a:viisted {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 1em;
+        }
+*/
+        
+        
+/*        added queries*/
+
+/*
+  .mobile-nav-icon {
+    display: inline-block;
+    float: right;
+    text-align: right;
+  }
+
+
+  .main-nav li {
+    display: block;
+    left: 50%;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+    
+.sticky {
+    font-size: 20px;
+    left: 55%;  
+    display: inline-block;
+        }
+*/
+        
+/*
+  .sticky .main-nav { 
+    margin-top: 15px;
+    float: right;
+    left: 70%; }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+
+  .sticky .mobile-nav-icon i {
+      aqui se ajusta tamano del icon
+    color: #000;
+    float: right;
+    margin-right: 50%;
+    font-size: 32px;
+  }
+
+  .sticky .mobile-nav-icon  {
+    margin-top: 0px;
+    margin-left: 70%;
+      font-size: 190px;
+  }
+*/
+
+/*       reviewed queries:
+        */
+
+        
+.main-nav {
+    display: none;
+        }
+        
+.mobile-nav-icon {
+    display: inline-block;
+    text-align: center;
+        }
+        
+.main-nav  {
+    float: right;
+    margin-top: 10px;
+    margin-left: 15px;
+        }
+.main-nav li {
+  display: block;
+        }
+        
+}
+
+
+
+
+@media only screen and (min-width: 738px) and (max-width: 1023px) {
+    section {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;     
+    }
+    
+    .date,
+    .places1, .places2,
+    .gifts {
+        background-size: cover;
+    }
+    
+    
+    .boxes {
+        display: none;
+    }
+}

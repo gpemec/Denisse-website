@@ -1,0 +1,307 @@
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-align: center;
+/*    background: #B3CEE5;*/
+/*    background: #195FBE;*/
+    background: #B3CEE5;
+    height: 100%;
+}
+
+
+.email {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.top-0 {
+    top: 0 !important;
+}
+.position-sticky {
+    position: sticky!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-white, .mt-2 {
+    background-color: #fff !important;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.ppp {
+    position: relative;
+    display: inline;
+}
+
+
+
+.ft1, .ft2 {
+    margin: 0 auto 0 auto;
+}
+
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#r_bos {
+    display: none;
+    text-align: justify;
+}
+
+
+.hr {
+    width: 100%;
+    box-sizing: content-box;
+    display: blok; 
+}
+
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.xprxseg  {
+    text-align: left;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+.d-inline {
+    display:  inline!important
+}
+
+.ml-2 {
+    margin-left: 3rem!important
+}
+
+.h-100{
+    height: 90%;
+}
+
+
+
+.opc, .col-sm-2, .col-sm-3{
+    position: static;
+}
+
+
+
+@media (min-width:1200px) {
+ .container {
+  max-width:1140px
+ }
+}
+
+
+@media (max-width: 992px){
+    .container{
+      max-width: 950px;
+    }
+}
+
+@media (max-width:576px) {
+ .container {
+  max-width:540px;
+ }
+}
+
+@media (max-width: 768px){
+    .opc, .col-sm-2, .col-sm-3{
+    text-align: justify;
+    }
+/*
+    .container {
+  max-width:720px
+ }
+*/
+    #r_bos{
+    display: inline;
+    }
+    #header_si{
+    display: none;
+    }
+    .opc, .col-sm-2, .col-sm-3 {
+    text-align: justify;
+    }
+    #logo_emp{
+      text-align: center;
+    }
+    
+}
+
+input[type=radio]{
+  transform:scale(1.2);
+}
+
+
+/*RSVP STYLE*/
+
+html,body {
+	height: 100%;
+}
+
+body.my-login-page {
+/*	background-color: #f7f9fb;*/
+	font-size: 15px;
+}
+
+img {
+    height: 50;
+    width: 50px;
+}
+
+.btn {
+    border-radius: 1rem;
+}
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: .1rem;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.card-body, .card {
+    border-radius: 1.5rem;
+}
+
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-login-page  {
+	margin: 40px 0;
+	color: #101643;
+	text-align: center;
+}
+
+.card-media {
+    border-radius: 1.5rem!important;
+}
+
+
+.title1 {
+    color: black;
+}
+
+.pull-right.btn{
+    color: white;
+    margin: 5px;
+    background:#0069d9;
+}
+.title1 {
+  color: #fff;  
+}
+
+.log{
+   color:  #00092C;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+.responderinvita {
+    height: 70%;
+    margin: 0 auto;
+    
+}
+
+.col-md-offset-2 {
+    display: inline-block;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.solitarie {
+    border-radius: 1.5rem;
+    background: #224563;
+    color: #A7D3D4;
+    font-size: 1.3rem;
+    width: 70%;
+    display: inline-block;
+    
+}
+.btn-solitarie {
+    margin-bottom: 4rem;
+}
+
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+
+
