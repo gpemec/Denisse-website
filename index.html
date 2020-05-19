@@ -1,38 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width-device-width, initial-scale=1" >
 
   <title>Boda de Den &amp; David </title>
-   
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css'>
-   
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/collection/components/icon/icon.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.0.1/collection/components/icon/icon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
-     
-     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
-     
+     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
     <link rel="stylesheet" type="text/css" href="styleDEN.css">
-    
     <link rel="stylesheet" type="text/css" href="queries.css">
 
 </head>
 
 <body>
-
-<!--HEADER-->
-<!--<div id="fullPage">-->
  <header class="section">
-
    <nav>
    <div class="row">
     <ul class="main-nav js--main-nav"> 
@@ -56,33 +43,31 @@
               a las 15:30 horas
 
             </div>
-            
             <div class="options">
             <a href="https://goo.gl/maps/6mEc5DC5X3uJGBoSA"  target="_blank" class="btn_church">IGLESIA</a>
             <a href="https://goo.gl/maps/sNXMg451aKpGW43f7"  target="_blank" class="btn_party">BANQUETE</a>
             <a href="https://goo.gl/maps/6mEc5DC5X3uJGBoSA"  target="_blank" class="btn_confirm">CONFIRMAR ASISTENCIA</a>
-            
             </div>
             
         <div class="clock-section">
         <p> Sólo faltan:</p>
           <div id= "clock-divi">
-                        <div>
-                            <span class="days"></span>:
-                            <div class="text-clock">Dias</div>
-                        </div>
-                        <div>
-                            <span class="hours"></span>:
-                            <div class="text-clock">Horas</div>
-                        </div>
-                        <div>
-                            <span class="minutes"></span>:
-                            <div class="text-clock">Minutos</div>
-                        </div>
-                        <div>
-                            <span class="seconds"></span>
-                            <div class="text-clock">Segundos</div>
-                        </div>
+                <div>
+                    <span class="days"></span>:
+                    <div class="text-clock">Dias</div>
+                </div>
+                <div>
+                    <span class="hours"></span>:
+                    <div class="text-clock">Horas</div>
+                </div>
+                <div>
+                    <span class="minutes"></span>:
+                    <div class="text-clock">Minutos</div>
+                </div>
+                <div>
+                    <span class="seconds"></span>
+                    <div class="text-clock">Segundos</div>
+                </div>
             </div>
         </div>
 </header>
@@ -113,7 +98,6 @@
       <div class="places2_title" data-aos= "zoom-in-down" data-aos-duration="2000">
           <h2>Banquete</h2>
             </div>
-<!--        <div class="container">-->
         <div class="party_description">
             <p><bolder class="stronger">JW Marriot Santa Fe - Salón de las Artes</bolder><br>
             Av. Santa Fe 160 <br> Col. Santa Fe,  Álvaro Obregón <br>CP 01219, Ciudad de México<br>
@@ -129,19 +113,15 @@
             <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1578350632535&key=GRP&app=resvlink"  target="_blank" class="hotel_room">Reservar</a>
         </div> 
         </div>
-<!--        </div>-->
-        
 </section>
 <!--gifts-->
-
 
 <section class="gifts0" >
   <div class="container_gifts0">
       <div class="gifts_title" data-aos= "zoom-in-up" data-aos-duration="2000">
           <h2>Mesa de regalos</h2>
         </div>
-      <div class="row">
-        <div class="gifts_description0">
+      <div class="row pure-u-1 ">
             <p>DAVID ÁLVAREZ NOGUEDA <br>
 DENISSE LIRA ROMERO PARODI <br>
 NÚMERO DE EVENTO 522272<br>  
@@ -151,7 +131,6 @@ NÚMERO DE EVENTO 522272<br>
              <img src="img/logopalacio.svg" alt="palacio">
         </div>
       </div>
-    </div>
     
     <div>
         <img src="img/boxes.jpg" alt="" class="boxes">
@@ -178,32 +157,36 @@ NÚMERO DE EVENTO 522272<br>
      
 </section>
 
-<!-- </div>-->
- 
 <!--
- <script>
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
-     
+<script>
+ $('.js--wp-1').waypoint(function(direction) {
+    $('.js--wp-1').addClass('animated fadeIn');
+}, {
+    offset: '50%'
+});
+var nav = $('.js--main-nav');
+  var icon = $('.js--nav-icon i'); 
+  nav.slideToggle(200);
+  if (icon.hasClass('ion-navicon-round')){
+    icon.addClass('ion-close-round');
+    icon.removeClass('ion-navicon-round');
+  } else {
+    icon.addClass('ion-navicon-round');
+    icon.removeClass('ion-close-round');
+  } 
+ });
     
-     
-</script>
+    </script>
 -->
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <script  type="text/javascript">
   AOS.init();
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!--    <script src="jquery.waypoints.min.js"></script>-->
-      <script src="javascript.js"></script>
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script src="resources/js/script.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>
 

@@ -1,5 +1,110 @@
-@media only screen and (min-width: 370px) and
-    (max-width: 737px) {
+
+
+
+
+@media (min-width: 781px) and (max-width: 1010px) {
+     h1 {
+        font-size: 8em;    
+    }
+.btn_church,
+.btn_confirm,
+.btn_party,
+.btn_attendance {
+    font-family:  "Poiret One";
+    background: #fff;
+    color: #222;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 2%;
+    border: .5px solid #000;
+}
+        
+    .places1 h2, .places2 h2 {
+        font-size: 8em;
+        padding-top: 5%;
+    }
+    .gifts h2{
+        margin-top: 1em;
+    font-size: 9em;
+        }
+.gifts0 h2 {
+    font-size: 6em; }
+    
+    .gifts0 h2 {
+        font-size: 6em;
+        padding-top: 18%;
+        font-family: "Poiret One";
+        color: #fff;
+        }
+    
+    h3, .date_description p {
+        font-size: 1.8rem;
+    }
+    
+    .party_description p {
+        margin: 0 15%;
+        font-size: 1.5rem;
+    }
+    
+    section {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;     
+    }
+    .date,
+    .places1, .places2,
+    .gifts {
+        background-size: cover;
+    }
+    
+    #clock-divi, .clock-section p {
+        font-size: 1.5rem;
+    }
+    
+    .container_gifts0 p, .logos0 img
+        {
+            width: 100%;
+            max-width: 100%;
+            font-size: 2.8em;
+            font-weight: bold;
+            display: block;
+            margin: 12% auto 1% auto;
+            text-align: center;
+            align-items: center;
+            line-height: 1.2;
+        }
+    .church_btn, .hotel_room {
+        font-weight: bold;
+        }
+   .gifts0 {
+    color: #fff;
+    padding: 0rem 0rem;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url(img/boxes.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .boxes {
+        display: none;
+    }
+    
+    .main-nav {
+    display: inline-block;
+        }  
+    
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
 
     body {
         font-size: 1.3em;
@@ -7,14 +112,13 @@
         line-height: 1;
             }
     p, .gifts p{ 
-            font-size: 1.3em;
+            font-size: 2em;
         }
     section { 
         width: 100%;
         height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        
     }
      
     
@@ -27,44 +131,193 @@
             padding-top: 0px;
             text-align: center;
         }
-    
-        
-   
+
      .gifts0 h2,
         .gifts h2{
-        font-size: 4em;
-        padding-top: .5em;
+        font-size: 3em;
+        padding-top: 11%;
         font-family: "Poiret One"
     }
         
-        .places1 h2, .places2 h2 {
-            font-size: 4em;
-            padding-top: .8em;
-        }
-        .gifts h2{
-            margin-top: 2em;
-        font-size: 2.5em;
-            }
-/*
-       .gifts h2, 
-        .places h2{
-        padding: 0;
-         font-family: "Poiret One"
-        }
-*/
-    .gifts0 h2 {
-        font-size: 3em;
-        padding-top: 11%;
+    .places1 h2, .places2 h2 {
+        font-size: 4em;
+        padding-top: .8em;
         }
     
     h3 {
         font-size: 1.3em;
-
     }
     
     .date_description p {
             font-size: 1.2em;
             line-height: 1.5;
+    }
+    .date,
+    .places1, .places2,
+    .gifts {
+        background-size: cover;
+    }
+    
+    header {
+        background-image: url(img/imagevertical01.png);
+        background-size: 100% 40%;
+        background-size: contain;
+        height: 100vh;
+    }
+    
+    .church_description p,
+    .party_description p {
+        font-size: 1em;
+        text-align: center;
+        }
+        
+    .party_description p {
+        margin: 0 1%;
+        }
+        
+    .church_btn, .hotel_room {
+        font-size: 1em;
+        font-weight: bold;
+        }
+
+    .container_gifts0 p, .logos0 img    {
+        font-size: 2em;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        }
+
+        .boxes img {
+            width: 40px;
+            height: 50px;
+        }
+    .header {
+        background-size: contain;
+    }
+    .boxes,     
+.clock-section p,
+.clock-section,
+#clock-divi,
+#clock-divi > div, 
+#clock-divi div > span, 
+.text-clock {
+    display: none;
+        }     
+
+
+.gifts0 {
+  padding: 0rem 0rem;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url(img/boxes.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+        
+.gifts0 h2, gifts h2 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 12%;
+        } 
+        
+.btn_church,
+.btn_confirm,
+.btn_party,
+.btn_attendance {
+    font-family:  "Poiret One";
+    background: #fff;
+    color: #222;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 3%;
+    border: .5px solid #000;
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
+    .btn_party,
+    .btn_attendance,
+    .btn_confirm {
+    margin-top: 10px;    }
+        
+.main-nav {
+    display: none;
+        }
+        
+.mobile-nav-icon {
+    display: inline-block;
+    text-align: center;
+        }
+        
+.main-nav  {
+    float: right;
+    margin-top: 10px;
+    margin-left: 15px;
+        }
+.main-nav li {
+  display: block;
+        }  
+        
+}
+
+    
+
+  @media (min-width: 300px) and (max-width: 480px) {
+    body {
+        font-size: 1.3em;
+        display: block;
+        line-height: 1; 
+      }
+    h3, p, .gifts p{ 
+        font-size: 1.3em;
+        }
+    section { 
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+     
+    h1 {
+        font-size: 5em;
+        margin-top: -.3em;
+    }
+        
+    .couplename h1 {
+            padding-top: 0px;
+            text-align: center;
+        }
+    
+     .gifts0 h2, .gifts h2 {
+        font-size: 4em;
+        padding-top: .5em;
+        font-family: "Poiret One"
+    }
+        
+    .places1 h2, .places2 h2 {
+        font-size: 4em;
+        padding-top: .8em;
+    }
+    .gifts h2{
+        margin-top: 2em;
+    font-size: 2.5em;
+        }
+    .gifts0 h2 {
+    font-size: 3em;
+    padding-top: 11%;
+    }
+    .date_description p {
+    font-size: 1.2em;
+    line-height: 1.5;
         }
         
     .date,
@@ -91,33 +344,22 @@
         }
         
     .church_btn, .hotel_room {
-            font-size: 1em;
-        }
-         .container_gifts0 p {
-            display: inline-block;
-            margin: 0 auto;
-             align-items: center;
-             width: 100%;
-/*
-            align-content: center;
-             text-align: center;
-*/
+        font-size: 1em;
+        font-weight: bold;
         }
         
-    .container_gifts0 p, .gifts_description0,
-.logos0 img
+    .container_gifts0 p, .logos0 img
         {
-            font-size: 1em;
+            width: 100%;
+            max-width: 100%;
+            font-size: 1.2em;
             display: block;
-            margin-left: 2%;
+            margin: 12% auto 8% auto;
             text-align: center;
             align-items: center;
+            line-height: 1.2;
         }
-        
-       
-        .logos0 img {
-            margin-left: 8%;
-        }
+
         .boxes img {
             width: 40px;
             height: 50px;
@@ -125,7 +367,7 @@
     .header {
         background-size: contain;
     }
-        
+.boxes,
 .clock-section p,
 .clock-section,
 #clock-divi,
@@ -135,10 +377,6 @@
     display: none;
         }     
         
-.boxes {
-        display: none;
-    }
-
 .gifts0 {
   padding: 0rem 0rem;
     top: 0;
@@ -165,99 +403,17 @@
     font-family:  "Poiret One";
     background: #fff;
     color: #222;
-    padding: 15px 30px;
-    font-size: 15px;
+    padding: 15px 25px;
+    font-size: .9em;
     background-color: #fff;
     border-radius: 30px;
-    margin-left: 3%;
     border: .5px solid #000;
-    margin-bottom: 10px;
-    margin-top: 55px;
+    margin: 3% auto 2% auto;
 }
     .btn_party,
     .btn_attendance,
     .btn_confirm {
     margin-top: 10px;    }
-        
-        
-/*
-        
-.main-nav {
-    float: right;
-    margin-top: 5px;
-    margin-left: 40%px;
-    color: black;
-  }
-     
-.main-nav li a:link,
-.main-nav li a:viisted {
-    display: block;
-    border: 0;
-    padding: 10px 0;
-    font-size: 1em;
-        }
-*/
-        
-        
-/*        added queries*/
-
-/*
-  .mobile-nav-icon {
-    display: inline-block;
-    float: right;
-    text-align: right;
-  }
-
-
-  .main-nav li {
-    display: block;
-    left: 50%;
-  }
-
-  .main-nav li a:link,
-  .main-nav li a:visited {
-    display: block;
-    border: 0;
-    padding: 10px 0;
-    font-size: 100%;
-  }
-    
-.sticky {
-    font-size: 20px;
-    left: 55%;  
-    display: inline-block;
-        }
-*/
-        
-/*
-  .sticky .main-nav { 
-    margin-top: 15px;
-    float: right;
-    left: 70%; }
-
-  .sticky .main-nav li a:link,
-  .sticky .main-nav li a:visited {
-    padding: 10px 0;
-  }
-
-  .sticky .mobile-nav-icon i {
-      aqui se ajusta tamano del icon
-    color: #000;
-    float: right;
-    margin-right: 50%;
-    font-size: 32px;
-  }
-
-  .sticky .mobile-nav-icon  {
-    margin-top: 0px;
-    margin-left: 70%;
-      font-size: 190px;
-  }
-*/
-
-/*       reviewed queries:
-        */
-
         
 .main-nav {
     display: none;
@@ -277,27 +433,4 @@
   display: block;
         }
         
-}
-
-
-
-
-@media only screen and (min-width: 738px) and (max-width: 1023px) {
-    section {
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;     
-    }
-    
-    .date,
-    .places1, .places2,
-    .gifts {
-        background-size: cover;
-    }
-    
-    
-    .boxes {
-        display: none;
-    }
 }
